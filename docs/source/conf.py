@@ -39,6 +39,17 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+here = Path(__file__).parent.absolute()
+
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+#
+html_theme_options = {"collapse_navigation": False, "style_external_links": True}
+
+# Removes, from all docs, the copyright footer.
+html_show_copyright = False
+
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
