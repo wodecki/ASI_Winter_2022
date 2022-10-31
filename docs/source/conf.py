@@ -1,5 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 from pathlib import Path
+from sphinx.application import Sphinx
 
 # -- Project information
 
@@ -13,20 +14,11 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    "sphinx.ext.autodoc",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.napoleon",
-    "sphinx_autodoc_typehints",
-    "sphinx.ext.doctest",
-    "sphinx.ext.todo",
-    "sphinx.ext.coverage",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.ifconfig",
-    "sphinx.ext.viewcode",
-    "nbsphinx",
-    "sphinx_copybutton",
-    "sphinxcontrib.mermaid",
-    "myst_parser",
+    'sphinx.ext.duration',
+    'sphinx.ext.doctest',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.intersphinx',
 ]
 
 intersphinx_mapping = {
