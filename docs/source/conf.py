@@ -11,6 +11,8 @@ author = 'Graziella'
 release = '0.1'
 version = '0.1.0'
 
+html_style = 'css/qb1-sphinx-rtd.css'
+
 # -- General configuration
 
 extensions = [
