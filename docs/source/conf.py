@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
+project = 'ASI Winter 2022'
+copyright = '2022, Andrzej Wodecki'
 author = 'Graziella'
 
 release = '0.1'
